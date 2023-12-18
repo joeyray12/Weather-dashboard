@@ -156,7 +156,7 @@ $(document).ready(function () {
             searchWeather(queryURL);
         } else {
             
-            let queryURL = buildURLFromInputs("Detroit");
+            let queryURL = buildURLFromInputs("Boston");
             searchWeather(queryURL);
         }
     }
